@@ -1,0 +1,122 @@
+main{
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 20% 80%;
+  background-color: black;
+  /*background-color: #21252B;*/
+}
+
+body{
+  margin: 0px;
+}
+
+.banner{
+  display: grid;
+  text-align: center;
+  grid-column: 1/10;
+  grid-template-columns: 10% 90%;
+  padding: 30px;
+  border-bottom: 35px solid white;
+  background-image: linear-gradient(#FF7075, #FD7CFF);
+}
+
+.content{
+  grid-column: 1/9;
+  padding: 20px;
+  display: grid;
+  grid-template-rows: 55% 45%;
+  border-top: 10px solid white;
+}
+
+.quickhits{
+  grid-column: 9/10;
+  padding: 20px;
+  padding-right: 100px;
+  padding-top: 100px;
+  color:white;
+  /*background-color: #282c34;*/
+  border-top: 10px solid white;
+}
+
+h1{
+  font-family: aktiv-grotesk-condensed, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px;
+  color: white;
+}
+
+p{
+  font-family: aktiv-grotesk-thin, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: white;
+}
+
+ul{
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img{
+  padding-top: 0px;
+}
+
+li:hover{
+  color:#FF7075;
+}
+
+#quote{
+  padding-top: 10px;
+  font-family: aktiv-grotesk-condensed, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  color:#FF7075;
+}
+
+#thumbTxt{
+  padding-top: 40px;
+}
+
+#credit{
+  text-align: center;
+}
+
+#OBJ{
+  height: 200px;
+  width: 300px;
+}
+
+#BookCover{
+  height: 200px;
+  width: 250px;
+}
+
+#chick{
+  height: 200px;
+  width: 175px;
+}
+
+#contentHead {
+  font-family: aktiv-grotesk-condensed, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  padding-left: 100px;
+  color: white;
+}
+
+#zflogo {
+  height: 100px;
+  width: 100px;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+#thumbnails{
+  padding-left: 100px;
+}
